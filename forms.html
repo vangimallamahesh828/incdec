@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>html forms</title>
+   <link rel="stylesheet" href="doc32.css">
+</head>
+<body>
+    <div>
+        <form action="results.html" method="get" target="_blank">
+            <label for="username">Enter First Name:</label>
+            <input type="text" name="name" id="username" value="Mr./Mrs." autofocus/><br><br>
+            <label for="last name">Enter Last Name:</label>
+            <input type="text" name="name" id="last name" required/><br><br>
+            <label for="mail">Enter email:</label>
+            <input type="email" name="email" id="mail"/><br><br>
+            <label for="dob">DOB:</label>
+            <input type="date" name="dob"/><br><br>
+            <label for="">Gender:</label>
+            <input type="radio" name="gender" id="male"/><label for="male">Male</label>
+            <input type="radio" name="gender" id="female"/><label for="female">Female</label>
+            <input type="radio" name="gender" id="others"/><label for="others">choose not disclose</label><br><br>
+            <label for="">Hobbies:</label>
+            <input type="checkbox" name="name" id="music"/><label for="music">Listening music</label>
+            <input type="checkbox" name="name" id="movie"/><label for="movie">watcing movies</label>
+            <input type="checkbox" name="name" id="reading"/><label for="reading">reading books</label><br><br>
+            <label for="">social media must use:</label>
+            <select name="" id="">
+                <option value="">...select...</option>
+                <option value="">Facebook</option>
+                <option value="">Instagram</option>
+                <option value="">Whatsapp</option>
+                <option value="">Flipkart</option>
+            </select><br><br>
+            <label for="">Feedback:</label>
+            <textarea name="" id="" cols="30" rows="5"></textarea><br><br>
+            <input value="register" type="submit"/><input value="clear" type="reset"/>
+        </form>
+    </div>
+    
+</body>
+</html>
